@@ -1,2 +1,3 @@
-# gridwolrd
-Solving gridworl with MDPs and Q-learning
+# Gridworld
+
+Solving gridworld with MDPs and Q-learning

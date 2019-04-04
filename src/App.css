@@ -1,0 +1,47 @@
+.App-tile {
+  border: 1px solid grey;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.App-exit {
+  position: relative;
+}
+
+.App-exit:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  border: 2px solid grey;
+}
+
+.App-tile-north {
+  position: absolute;
+  top: 5px;
+}
+
+.App-tile-west {
+  position: absolute;
+  left: 5px;
+}
+
+.App-tile-east {
+  position: absolute;
+  right: 5px;
+}
+
+.App-tile-south {
+  position: absolute;
+  bottom: 5px;
+}
+
+.App-tile-dot {
+  width: 33%;
+  height: 33%;
+  background-color: cornflowerblue;
+  border-radius: 50%;
+}
